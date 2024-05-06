@@ -1,0 +1,22 @@
+/* var.css */
+:root {
+    --vp-c-brand-1: #b41212;
+    --vp-c-brand-2: #d72828;
+    --vp-c-brand-3: #fd1818;
+  }
+  
+  .dark {
+    --vp-c-brand-1: #fd1818;
+    --vp-c-brand-2: #d72828;
+    --vp-c-brand-3: #b41212;
+  }
+  /* 以前的vp-c-brand已弃用 */
+  /* .vitepress\theme\style\var.css */
+/* 引用块 */
+.vp-doc blockquote {
+    border-radius: 5px;
+    padding: 10px 16px;
+    background-color: var(--vp-badge-danger-bg);
+    position: relative;
+    border-left: 4px solid #e95f59;
+  }
