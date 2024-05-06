@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "大逃杀！"
   text: "云岫地区已上线"
-  tagline: 当前版本：技术性验证1.4.6
+  tagline: 当前版本：技术性验证 Beta 1.4.7
   image:
     src: /logo.png
     alt: BattleRoyale

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+lastUpdated: true
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,14 +7,16 @@ export default defineConfig({
   description: "EasyTalk",
   themeConfig: {
     logo: '/logo.png',
-    //本地搜索
+
     search: {
       provider: 'local'
     },
+
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: '开发团队', link: '/team' },
       { text: 'RIA 论坛', link: 'https://bbs.ria.red' }
     ],
 
@@ -36,16 +39,16 @@ export default defineConfig({
 
       '/wiki/': [
         {
-          text: '游戏Wiki',
-          collapsed: true,
+          text: '游戏道具',
+          collapsed: false,
           items: [
-            { text: 'NPC们', link: '/wiki/npc' },
-            { text: '游戏道具', link: '/wiki/prop' },
+            { text: '特殊玩具', link: '/wiki/prop/toy' },
+            { text: '近战武器', link: '/wiki/prop/sword' },
           ]
         },
         {
           text: '游戏任务',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: '神秘的祭坛', link: '/wiki/tasks/' },
           ]
